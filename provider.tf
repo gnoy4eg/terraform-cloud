@@ -11,12 +11,12 @@ provider "yandex" {
   folder_id = "${var.yandex_folder_id}"
 }
 
-terraform {
-  cloud {
-    organization = "terraform-cloud-yc"
+# terraform {
+#   cloud {
+#     organization = "terraform-cloud-yc"
 
-    workspaces {
-      name = "terraform-cloud"
-    }
-  }
-}
+#     workspaces {
+#       name = "terraform-cloud"
+#     }
+#   }
+# }
